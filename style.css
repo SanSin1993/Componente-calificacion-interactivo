@@ -1,0 +1,118 @@
+/*gral*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    font-size: 14px;
+    color: white;
+    box-sizing: border-box;
+}
+.flexBox{
+    display: flex;
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: #1f2630;
+    width: 87%;
+    height: 55%;
+    border-radius: 15px;
+}
+/*rating-section*/
+#rating-section{
+    justify-content: space-between;
+}
+#starBox{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #262f38;
+    justify-content: center;
+    align-items: center;
+}
+#starBox img{
+    width: 40%;
+}
+h1{
+    font-size: 25px;
+}
+article{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+p{
+    color: hsl(217, 12%, 63%);
+    line-height: 1.5;
+}
+section{
+    justify-content: space-between;
+}
+section button{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #262f38;
+    color: hsl(217, 12%, 63%);
+    cursor:pointer;
+}
+.inactive{
+    background-color: #262f38;
+    color: hsl(217, 12%, 63%);
+}
+.active{
+    background-color: #7C8798;
+    color: white;
+}
+section button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+#submit-button{
+    width: 100%;
+    height: 14%;
+    border: 0;
+    border-radius: 50px;
+    background-color: hsl(25, 97%, 53%); 
+    cursor:pointer;   
+}
+#submit-button:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+/*thank-you-section*/
+#thank-you-section{
+    display: none;
+    align-items: center;
+    padding: 40px 25px
+}
+#thankImg{
+    width: 50%;
+}
+#thank-you-section div{
+    background-color: #262f38;
+    padding: 5px 12px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#thank-you-section div p{
+    color: hsl(25, 97%, 53%);
+}
+#selected{
+    color: hsl(25, 97%, 53%);
+}
+h2{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+#thank-you-section p{
+    text-align: center
+}
